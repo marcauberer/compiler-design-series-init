@@ -1,0 +1,5 @@
+int a = 123;
+int b = 21;
+int c = 34;
+int d = a + b * (c + 4);
+print(d);
