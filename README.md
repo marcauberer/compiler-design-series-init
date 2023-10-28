@@ -6,7 +6,7 @@ If you want to see, how the finished compiler for `MathExpr` looks like, check o
 
 ## Setup steps
 
-1. Create repo from this template
+1. Create repo from this template (Click the green `Use this template` button in the top right corner)
 2. Clone it to your machine
 3. Get yourself a C++ compiler, e.g. GCC or Clang (e.g. [winlibs.com](https://winlibs.com), not forget to add `bin` dir to system PATH variable)
 4. Build LLVM (see below)
