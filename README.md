@@ -28,7 +28,7 @@ Execute the following instructions in a directory, where you have a few spare gi
 
 **Linux**
 ```bash
-git clone --depth 1 --branch llvmorg-17.0.3 https://github.com/llvm/llvm-project llvm
+git clone --depth 1 --branch llvmorg-18.1.2 https://github.com/llvm/llvm-project llvm
 mkdir ./llvm/build-release
 cd ./llvm/build-release
 cmake -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_C_COMPILER=gcc -DCMAKE_CXX_COMPILER=g++ -DCMAKE_CXX_FLAGS_RELWITHDEBINFO="-O2" -GNinja ../llvm
@@ -37,11 +37,11 @@ cmake --build .
 
 **Windows**
 ```bash
-git clone --depth 1 --branch llvmorg-17.0.3 https://github.com/llvm/llvm-project llvm
+git clone --depth 1 --branch llvmorg-18.1.2 https://github.com/llvm/llvm-project llvm
 mkdir .\llvm\build-release
 cd .\llvm\build-release
 cmake -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_C_COMPILER=gcc -DCMAKE_CXX_COMPILER=g++ -DCMAKE_CXX_FLAGS_RELWITHDEBINFO="-O2" -GNinja ..\llvm
 cmake --build .
 ```
 
-© Marc Auberer 2023
+© Marc Auberer 2023-2024
